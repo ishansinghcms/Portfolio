@@ -1,11 +1,10 @@
 import classes from "./style.module.css";
-import myImage from "../../../assets/my_photo.png";
 import { Link } from "react-router-dom";
 
 export default function () {
   return (
     <div className={classes.container}>
-      <h3>About Me</h3>
+      <h3>ABOUT ME</h3>
       <h1>Hey. What's Up? Hello! 👋</h1>
       <p>
         Welcome to my portfolio! I'm <span>Ishan Singh</span>, a dedicated and
@@ -16,7 +15,7 @@ export default function () {
       </p>
       <p>
         With <span>B.E. in Computer Science</span>,<span>1 year 2 months</span>{" "}
-        of professional work experience and <span>9 months</span> of
+        of professional work experience and <span>11 months</span> of
         freelancing, I have developed a diverse portfolio of projects, ranging
         from dynamic single-page applications to complex enterprise-level
         applications. My expertise lies in translating complex requirements into
