@@ -18,7 +18,7 @@ export const experiences = {
       `Implemented <span>Real Time Messaging</span> for Arise by integrating <span>Socket.io</span> and <span>GraphQl subscriptions</span>. This ensured instant message delivery and display without page reload.`,
       `Managed <span>MongoDB</span> and <span>MySql</span> databases. Implemented strategies like caching and indexing to optimize database operations.`,
       `Worked on <span>User Authentication Modules</span> of Arise. Integrated JWT and OAuth to support role-based access control and social logins.`,
-      `Gained exposure on <span>Jenkins</span> and <span>CI/CD pipeline</span> while working on full stack applications.`,
+      `Gained exposure on <span>Jenkins</span> and <span>CI/CD pipelines</span> while working on full stack applications.`,
       `Provided <span>React training</span> and <span>mentorship</span> to 2 interns.`,
       `Conducted a technical interview and multiple code reviews.`,
     ],
@@ -33,7 +33,7 @@ export const experiences = {
     experience: [
       `Utilized <span>MERN, React, React Native, Redux, Node, Express.js, JavaScript & TypeScript</span>.`,
       `Provided comprehensive <span>full-stack websites development, mobile application development</span> and other services to over 10 clients, leveraging the <span>MERN</span> stack to deliver robust and scalable solutions.`,
-      `Engineered pixel-perfect user interfaces in <span>React</span>, meticulously translating Figma designs and detailed requirement documents into high-quality, responsive front-end components.`,
+      `Engineered <span>pixel-perfect user interfaces</span> in React, meticulously translating Figma designs and detailed requirement documents into high-quality, responsive front-end components.`,
       `Designed and implemented <span>REST</span> and <span>GraphQL</span> APIs, and seamlessly integrated these APIs into various <span>Node</span> web applications to enhance functionality and data flow.`,
       `Successfully orchestrated the deployment of multiple web applications on <span>AWS</span> servers.`,
       `Integrated secure and efficient <span>payment processing functionalities</span> into web applications using industry-standard modules such as <span>Stripe</span> and <span>Square</span>, facilitating seamless financial transactions.`,

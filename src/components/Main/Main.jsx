@@ -3,6 +3,7 @@ import myImage from "../../../assets/my_photo.png";
 import linkedinIcon from "../../../assets/Linkedin.png";
 import githubIcon from "../../../assets/Github.png";
 import leetcodeIcon from "../../../assets/Leetcode.png";
+import gmailIcon from "../../../assets/gmail.png";
 import { Outlet } from "react-router-dom";
 
 export default function Main() {
@@ -20,7 +21,9 @@ export default function Main() {
           <img src={myImage} alt="My Image" className={classes.image} />
         </div>
         <h1>Ishan Singh</h1>
-        <h2>Full Stack Developer</h2>
+        <h2>Full-Stack Developer</h2>
+        <p className={classes.contact}>+91-8707899146</p>
+        <p className={classes.contact}>ishan.1999@gmail.com</p>
         <div className={classes.links}>
           <a
             href="https://www.linkedin.com/in/ishan-singh-97b592199/"
@@ -47,12 +50,21 @@ export default function Main() {
           >
             <img
               src={leetcodeIcon}
-              alt="Leetcode logo"
+              alt="Leetcode Logo"
               className={classes.icon}
             />
           </a>
+          <a
+            href="mailto:ishan.1999@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={gmailIcon} alt="Gmail Logo" className={classes.icon} />
+          </a>
         </div>
-        <button onClick={handleDownload}>Download Resume</button>
+        <button className={classes.button} onClick={handleDownload}>
+          Download Resume
+        </button>
       </div>
       <div className={classes.right_container}>
         <Outlet />

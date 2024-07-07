@@ -4,6 +4,13 @@
   display: flex;
   background: #444242;
   border-radius: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contact {
+  margin: 0;
+  color: rgb(255, 255, 255, 0.5);
+  padding-bottom: 5px;
 }
 
 .left_container {
@@ -13,7 +20,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .right_container {
@@ -59,6 +65,15 @@
   align-items: center;
 }
 
+.links {
+  padding-top: 10px;
+}
+
+.button {
+  margin: 0;
+  margin-top: 15px;
+}
+
 .image {
   width: 60%;
   height: 110%;
@@ -66,8 +81,7 @@
   object-position: center top;
 }
 
-h1,
-h3 {
+h1 {
   margin: 0;
 }
 
@@ -103,7 +117,12 @@ button:hover {
   height: 30px;
   width: 30px;
   margin: 0 10px;
-  border-radius: 50%;
+  border-radius: 5px;
+}
+
+.icon:hover {
+  border: 1px solid #444242;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 button:active,

@@ -71,7 +71,7 @@ export default function Navbar() {
                 }`}
                 onClick={() => activeChangeHandle("connect")}
               >
-                CONNECT
+                EDUCATION
               </Link>
             </li>
           </ul>
